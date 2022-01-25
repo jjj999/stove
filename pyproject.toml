@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "stove"
-version = "0.1.0"
+version = "0.1.1"
 description = "Hot-reloader for HTTP servers."
 authors = ["Yunhyeon Jeong <y.jeong@athnomedical.com>"]
 
