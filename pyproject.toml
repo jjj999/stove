@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "stove"
+version = "0.1.0"
+description = "Hot-reloader for HTTP servers."
+authors = ["Yunhyeon Jeong <y.jeong@athnomedical.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.0.1"
+gileum = "^0.2.2"
+watchdog = "^2.1.5"
+
+[tool.poetry.dev-dependencies]
+mkdocstrings = "^0.15.2"
+mkdocs-material = "^7.2.6"
+pytest = "^6.2.5"
+tox = "^3.24.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
