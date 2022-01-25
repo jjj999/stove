@@ -1,3 +1,4 @@
+dist/
 site/
 .env
 *.egg-info/
